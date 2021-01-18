@@ -1,0 +1,4 @@
+Arduino_serial_reader.py # อ่านค่า ocv เขียนเป็น Samsung_raw.csv
+Battery_data_analysis.py # เอา Samsung_raw.csv มาพล๊อตกราฟ
+kalman_filter_operation.py # คำนวนเเล้วเขียนไฟล์ Kalman_filter_Experimental.csv
+kalman_filter_data_analysis.py # เอาไฟล์ Kalman_filter_experimental.csv มาคำนวนต่อ
