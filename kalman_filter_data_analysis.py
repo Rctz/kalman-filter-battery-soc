@@ -100,7 +100,7 @@ def getAbsDifFromOCV(timeList, ocvList, list1, list2, list3, list4):
 def main():
 
     # Get the data as a list from an nx6 .csv file
-    kalmanData1 = csvToList("Kalman_Filter_Comparison_5column_extra_time.csv")
+    kalmanData1 = csvToList("Kalman_Filter_Experimental_Data.csv")
 
     # Get estimate names from column titles
     titleLine = kalmanData1[0]
