@@ -196,7 +196,7 @@ def printFittingResults(chiSquaredResults, xValues, yValues):
 def main():
 
     # Get the data as a list from an nx2 .csv file
-    batteryData1 = csvToList("Samsung_18650_set2_run_1.csv")
+    batteryData1 = csvToList("Samsung_18650_18650_Raw_OCV_Data.csv")
 
     # Separate measurement numbers and OCV readings into separate lists
     measurementNumbers1 = list()
