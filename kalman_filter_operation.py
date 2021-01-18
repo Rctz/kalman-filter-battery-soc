@@ -96,7 +96,7 @@ def main():
     time.sleep(2)
 
     # Set up CSV data output
-    write_to_file_path = "Kalman_Filter_Comparison_5column_extra_time2.csv"
+    write_to_file_path = "Kalman_Filter_Experimental_Data.csv"
     output_file = open(write_to_file_path, "w+")
     estimate1Name = "Coulomb Counting"
     estimate2Name = "OCV"
